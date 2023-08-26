@@ -575,17 +575,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 71066:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Leaf1.0c89d817.png","height":348,"width":93,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAICAYAAADTLS5CAAAAT0lEQVR4nGN0aC7g+xZl+p3R8vh0KwZmJm5Gi3NztBj//nNntDg/R5zh3/9wRouzs6UZ/jPYghhyQIYUo+WpmUL/mRilGS1frmf48/AlHwC1wBsCvAxfDgAAAABJRU5ErkJggg==","blurWidth":2,"blurHeight":8});
-
-/***/ }),
-
 /***/ 28667:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 

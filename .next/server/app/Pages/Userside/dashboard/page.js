@@ -931,6 +931,18 @@ const __default__ = proxy.default;
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/book.5550b65e.png","height":325,"width":219,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAApklEQVR42gVATw+BUAD/vWS8JmvWlK3NheFi3WycXYzP7Ghz4OCCXFoaMtVKfxTvGZnPzJS2e5SKhNu3J2kheItD5UeJSuEkIAO9DskPJcF1AlQiC2y3wUgt4D4IIwD4WNcwbYQ4RR+sPXzF1WIJsAJdQwHPGeztGWJfb0JTa9gf7piYHbzsOgSZZbj6Jaq6AcsrIWeRIFyOXpYkHHKF8zguEeW19A/EPEZVrui5jQAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
 
+/***/ }),
+
+/***/ 85915:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+
 /***/ })
 
 };
@@ -940,7 +952,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6580,9240,6543,6042], () => (__webpack_exec__(89833)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,2677,6543], () => (__webpack_exec__(89833)));
 module.exports = __webpack_exports__;
 
 })();

@@ -5,13 +5,13 @@ import { useState } from "react";
 import Link from "next/link";
 import NoDefaultLayout from "@/app/components/NoDefaultLayout/layout";
 import Image from "next/image";
-
+import loginObject from 'public/assets/LoginPage/login-object.png';
+import  logo from 'public/icons/eNOOL_Logo.svg';
+import logineye from 'public/assets/LoginPage/logineye.svg';
+import logineyeclosed from 'public/assets/LoginPage/logineyeclosed.svg';
 const page = () => {
 
-  const loginObject = "/assets/LoginPage/login-object.png";
-  const logo = "/icons/eNOOL_Logo.svg";
-  const logineye = "/assets/LoginPage/logineye.svg";
-  const logineyeclosed = "/assets/LoginPage/logineyeclosed.svg";
+
 
   const [showPassword, setShowPassword] = useState(false);
   const handleTogglePassword = () => {

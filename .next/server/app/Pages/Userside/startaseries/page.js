@@ -972,6 +972,17 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
+/***/ }),
+
+/***/ 4066:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/trendingbook.551be5d9.png","height":421,"width":512,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AdVrqE8H/QT++wMA/f77Ab/01G8zBxQZGf0A+/74/goDAdSOp//3DP8ACPD6ABKt/yPcEIOj+ggROgAA+gAEAg4AAddaZvzL8JoCIfYxASwgdCTT9nqbABAVQfr7+fwL/g3/AdZUSPrvNSQFChQlAApjbyDsZCieBA72Qv8AA/4D+xv9AdZdO/z9S1kDAwIDAADi3TL83J2OElB8QPbp4P74z7T7AdqSWfQCGjEGAwoJ+xA0UubGnZQf3NywBQgIEQAtBfz8AeG2cSgTJk4JCR01FwIGC3CytLQryMDDBvj39gv7+vgFNydmqg9PbbEAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
+
 /***/ })
 
 };
@@ -981,7 +992,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6580,9240,6543,805,8367,3655,6045,8770,1203,2721], () => (__webpack_exec__(61349)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,2677,6543,805,8367,3655,6045,8770,1203], () => (__webpack_exec__(61349)));
 module.exports = __webpack_exports__;
 
 })();

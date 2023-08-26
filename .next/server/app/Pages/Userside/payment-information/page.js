@@ -823,6 +823,18 @@ const __default__ = proxy.default;
 "use strict";
 /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg1.3f5f09bf.png","height":1540,"width":1811,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAS1BMVEV+xbN/xLGAw7B/w7F/w7CAwq9/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAxLGAxLB/xLF/xLCAw7B/w7CAw7CAw7B5UEk+AAAAGXRSTlMAAAAAAAABAwkNEhMUFRcYGRoaGhoaGhscitjNAwAAADxJREFUeNoVyMkRgDAMBMEVh7lBMMhy/pFS9LN1pfMAmr3FS62yacvgRmbdmhAaSr804p9yJuEyjUeS+wdrhgMxyWywdQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":7});
 
+/***/ }),
+
+/***/ 85915:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+
 /***/ })
 
 };
@@ -832,7 +844,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6580,9240,6543,6042,9509], () => (__webpack_exec__(29011)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,2677,6543,9509], () => (__webpack_exec__(29011)));
 module.exports = __webpack_exports__;
 
 })();

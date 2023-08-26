@@ -343,95 +343,111 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 3134:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25353))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 54165))
 
 /***/ }),
 
-/***/ 25353:
+/***/ 54165:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11440);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _app_components_NoDefaultLayout_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(61995);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(52451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_4__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ login_page)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(18038);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(11440);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./app/components/NoDefaultLayout/layout.js
+var layout = __webpack_require__(61995);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(52451);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./public/assets/LoginPage/login-object.png
+/* harmony default export */ const login_object = ({"src":"/_next/static/media/login-object.cdfc2cf8.png","height":1141,"width":1059,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAIAAAC6ZnJRAAAAuUlEQVR42mMQDEtlsAthcAxjcIlgCE5hCEhkCklhYHCPapk8q6JrUmJtm1REqkVWIUNQMgODbfD6HXtWbNy6dNU6v9zytMZ2Bu84BqCW0KLayLT0uqK4aYtXLFy9gUHPi4HBJ7awY0JkUWlme11gXEJuWw9DQBIDQ2BSalSsl18og5yhjbd3fFE5g38ig3hSgWdWiXVyrmlagXtavnVsmkBSAYNCbiV/ToVYToV0bqVYTqVsXpVCbhUAd6c7dDJIud4AAAAASUVORK5CYII=","blurWidth":7,"blurHeight":8});
+// EXTERNAL MODULE: ./public/icons/eNOOL_Logo.svg
+var eNOOL_Logo = __webpack_require__(77754);
+;// CONCATENATED MODULE: ./public/assets/LoginPage/logineye.svg
+/* harmony default export */ const logineye = ({"src":"/_next/static/media/logineye.0b1326d4.svg","height":26,"width":38,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./public/assets/LoginPage/logineyeclosed.svg
+/* harmony default export */ const logineyeclosed = ({"src":"/_next/static/media/logineyeclosed.cd0af809.svg","height":26,"width":38,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./app/Pages/Userside/login/page.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
 
 
+
+
+
+
 const page = ()=>{
-    const loginObject = "/assets/LoginPage/login-object.png";
-    const logo = "/icons/eNOOL_Logo.svg";
-    const logineye = "/assets/LoginPage/logineye.svg";
-    const logineyeclosed = "/assets/LoginPage/logineyeclosed.svg";
-    const [showPassword, setShowPassword] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [showPassword, setShowPassword] = (0,react_.useState)(false);
     const handleTogglePassword = ()=>{
         setShowPassword((prevShowPassword)=>!prevShowPassword);
     };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_NoDefaultLayout_layout__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+    return /*#__PURE__*/ jsx_runtime_.jsx(layout/* default */.Z, {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             className: "bg-white",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "flex justify-center h-screen",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_4___default()), {
-                        src: loginObject,
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: login_object,
                         className: "hidden lg:block lg:w-1/2 lg:h-screen object-fill",
                         alt: "Background",
                         width: 1200,
                         height: 720
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "flex-1",
                             children: [
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     className: "text-center",
                                     children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                             className: "flex justify-center mx-auto",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: "w-auto h-7 sm:h-8",
-                                                src: logo,
+                                                src: eNOOL_Logo/* default */.Z,
                                                 alt: "E-Nool logo",
                                                 width: 50,
                                                 height: 50
                                             })
                                         }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             className: "mt-3 text-[#015464] font-black text-4xl",
                                             children: "Log In To Enool"
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "mt-4 h-1 w-full bg-[#E0E7FF] opacity-20 rounded"
                                 }),
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     className: "mt-8",
                                     children: [
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
                                             children: [
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                     children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("label", {
                                                             htmlFor: "email",
                                                             className: "block mb-2 text-lg  text-[#408080] ",
                                                             children: "Email ID"
                                                         }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
                                                             type: "email",
                                                             name: "email",
                                                             id: "email",
@@ -441,21 +457,21 @@ const page = ()=>{
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                     className: "mt-6",
                                                     children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                             className: "flex justify-between mb-2",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("label", {
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("label", {
                                                                 htmlFor: "password",
                                                                 className: "block mb-2 text-lg  text-[#408080]",
                                                                 children: "Password"
                                                             })
                                                         }),
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                             className: "relative",
                                                             children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("input", {
                                                                     type: showPassword ? "text" : "password",
                                                                     name: "password",
                                                                     id: "password",
@@ -464,11 +480,11 @@ const page = ()=>{
                                                                     className: "block w-full px-4 py-2  text-gray-700 placeholder-[#2e384d33] bg-[#E0E7FF] border border-gray-200 rounded-lgfocus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40",
                                                                     required: true
                                                                 }),
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                                                     type: "button",
                                                                     className: "absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5",
                                                                     onClick: handleTogglePassword,
-                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                                         src: showPassword ? logineye : logineyeclosed,
                                                                         alt: showPassword ? "Hide Password" : "Show Password",
                                                                         fill: true
@@ -476,37 +492,37 @@ const page = ()=>{
                                                                 })
                                                             ]
                                                         }),
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                                             href: "#",
                                                             className: " text-sm  text-[#408080] focus:text-blue-500 hover:text-[#408080] hover:underline",
                                                             children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                                                 "Forgot password?"
                                                             ]
                                                         })
                                                     ]
                                                 }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                     className: "mt-6",
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                         href: "/Pages/Userside/dashboard",
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                                             className: "w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-[#408080] rounded hover:bg-[#408080]/90 ",
                                                             children: "Start learning"
                                                         })
                                                     })
                                                 }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: "mt-6 text-sm text-center text-gray-400",
                                                     children: "Or Log In Using"
                                                 }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                     className: "mt-6 justify-center",
-                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
+                                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
                                                         type: "button",
                                                         className: "text-white w-full bg-[#F2403F] hover:bg-[#F2403F]/90  font-medium rounded text-sm px-28 py-2.5 text-center inline-flex items-center justify-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2",
                                                         children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
                                                                 className: "w-4 h-4 mr-2",
                                                                 "aria-hidden": "true",
                                                                 focusable: "false",
@@ -515,12 +531,12 @@ const page = ()=>{
                                                                 role: "img",
                                                                 xmlns: "http://www.w3.org/2000/svg",
                                                                 viewBox: "0 0 488 512",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                                     fill: "currentColor",
                                                                     d: "M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                                 children: "Gmail"
                                                             })
                                                         ]
@@ -528,14 +544,14 @@ const page = ()=>{
                                                 })
                                             ]
                                         }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                             className: "mt-6 text-sm text-center text-gray-400",
                                             children: [
                                                 "Don't have an Enool Account yet?",
                                                 " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                     href: "/Pages/Userside/signup1",
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                                         href: "#",
                                                         className: "text-[#408080] focus:outline-none focus:underline hover:underline font-bold",
                                                         children: "Sign up"
@@ -554,7 +570,30 @@ const page = ()=>{
         })
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (page);
+/* harmony default export */ const login_page = (page);
+
+
+/***/ }),
+
+/***/ 61995:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const NoDefaultLayout = ({ children })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        children: children
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NoDefaultLayout);
 
 
 /***/ }),
@@ -583,6 +622,17 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
+/***/ }),
+
+/***/ 77754:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/eNOOL_Logo.1bd0f8a4.svg","height":84,"width":320,"blurWidth":0,"blurHeight":0});
+
 /***/ })
 
 };
@@ -592,7 +642,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6138], () => (__webpack_exec__(34399)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769], () => (__webpack_exec__(34399)));
 module.exports = __webpack_exports__;
 
 })();

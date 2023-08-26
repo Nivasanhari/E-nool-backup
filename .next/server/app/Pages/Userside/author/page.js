@@ -1334,38 +1334,6 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
-/***/ }),
-
-/***/ 76159:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/publisher-book.708edda2.png","height":421,"width":512,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AXh3dJD9/Pw09/j4FvPz8yXTtqU+CDpMw3U662AEDQf0ASAgIOQQEhIbCAgJAPf3+QAqOjmxEg8Q4D4Rv28dHQPiASQrL80MDA0y8Pb1/SIfHQEdLzICFBUYABsF7AAL+dpwARkcG8bn5OU5WFdW/iInKgLgAgb9LSss/ff9AAa40txVATU5O7tJPz1ELR8c+uv09wWSyc8AKyUm/Tc5OATV0tBQARsaG7dVWltIU0pMAOjTzACw7/cA+Pj5ACQnKADr7OxMASYmJqXa2torhImOrB4HAuW+9vxwIyQl9PDv7tPT2NmJShtiyv2m48YAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
-
-/***/ }),
-
-/***/ 12119:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 23141:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 63754:
-/***/ (() => {
-
-
-
 /***/ })
 
 };
@@ -1375,7 +1343,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,8167,6580,9240,6543,6042,6045,8770,977], () => (__webpack_exec__(92834)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,2677,6543,1742,6045,8770,941,2837], () => (__webpack_exec__(92834)));
 module.exports = __webpack_exports__;
 
 })();

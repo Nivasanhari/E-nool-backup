@@ -16,8 +16,8 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(18038);
-// EXTERNAL MODULE: ./app/components/Navbar/Navbar.jsx + 5 modules
-var Navbar = __webpack_require__(83974);
+// EXTERNAL MODULE: ./app/components/Navbar/Navbar.jsx + 4 modules
+var Navbar = __webpack_require__(39492);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);

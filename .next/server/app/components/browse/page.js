@@ -691,18 +691,6 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
-/***/ }),
-
-/***/ 79942:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Ellipse.25173591.png","height":113,"width":113,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAIVBMVEUAUmMAUmMAUmQAUmMAUmQAUWQAUmQAUmMAUWQAUWMAUWNCcdYlAAAAC3RSTlMACSo0Nzc4ODg4OyfMtrgAAAApSURBVHjaY2BUDRJgEF5eZcig5dGyiCG8s6KUIbw9oxTMhUgwqgYJAADRUAqTs7jCVwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
-
 /***/ })
 
 };
@@ -712,7 +700,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6580,9240,6543,6042,805,8367,3655,2505], () => (__webpack_exec__(93064)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,2677,6543,805,8367,1742,3655,7567], () => (__webpack_exec__(93064)));
 module.exports = __webpack_exports__;
 
 })();

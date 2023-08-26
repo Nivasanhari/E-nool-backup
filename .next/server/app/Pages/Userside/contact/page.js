@@ -748,6 +748,42 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
+/***/ }),
+
+/***/ 71066:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Leaf1.0c89d817.png","height":348,"width":93,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAICAYAAADTLS5CAAAAT0lEQVR4nGN0aC7g+xZl+p3R8vh0KwZmJm5Gi3NztBj//nNntDg/R5zh3/9wRouzs6UZ/jPYghhyQIYUo+WpmUL/mRilGS1frmf48/AlHwC1wBsCvAxfDgAAAABJRU5ErkJggg==","blurWidth":2,"blurHeight":8});
+
+/***/ }),
+
+/***/ 50565:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/aboutbg.2bbc6e6b.png","height":733,"width":1918,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAARUlEQVR4nCWKsQkAIBAD8ziDYOX+I4mNM1iphb4nBsInn7O+5jaTIxl6R3IST+kAjNcoLP7vFxwZYFZCoW2ccMaRPQC1Cy0jHoMS3N3VAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
+
+/***/ }),
+
+/***/ 11189:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/leaf2.a885d738.png","height":321,"width":181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAcklEQVR42mNABlZHpoq6MthzMVgdmMwIErA4M9vd8vj0ZLgKi4tz5SxPzZxofmW+LFgAqirY4uzsBLARh6cygwUtT89KBgqqgxVcmMvEYHFpHpPF6Vlh5pfns8K1AlVoAc3TA+s4MYMRLGh2aoYIAxoAAF/OJHg+aQpGAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
+
 /***/ })
 
 };
@@ -757,7 +793,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,8167,6580,9240,6543,6042,5306], () => (__webpack_exec__(791)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,2677,6543,1742], () => (__webpack_exec__(791)));
 module.exports = __webpack_exports__;
 
 })();
