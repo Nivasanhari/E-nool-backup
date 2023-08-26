@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://v1.fontapi.ir/css/SFProDisplay');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.custom-pageflip-container {
+    width: 100%;
+    /* Adjust to your desired width */
+    height: 100%;
+    /* Adjust to your desired height */
+}
+
+.custom-pageflip {
+    width: 100%;
+    height: 100%;
+}
+.process_bg {
+    background-image: url("/assets/LandingPage/processflow-bg.png");
+    padding: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.start_bg {
+    background-image: url("/assets/LandingPage/start1.png");
+    padding: 1%;
+    background-repeat: no-repeat;
+    
+
+}
+.publisher_bg {
+    background-image: url("/assets/publisher-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.whysubscribe{
+    background-image: url("/assets/whysubscribe.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+/* .landing_bg {
+    background-image: url("/assets/LandingPage/landingbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.mySwiper{
+    position: absolute;
+}
+@media (min-width: 1024px)  {
+.hero_bg {
+    background-image: url("/assets/LandingPage/hero-bg-1.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+}
+@media (max-width: 1024px) {
+    .hero_bg {
+        background-image: url("/assets/LandingPage/hero-bg.png");
+        background-repeat: no-repeat;
+
+
+    }
+    
+    .read_book_bg {
+        background-image: url("/assets/LandingPage/hero-bg-1.png");
+        background-repeat: no-repeat;
+    }
+    .trending_curve {
+        background-image: url("/assets/LandingPage/Trending curve.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer_bg {
+        background-image: url("../public/assets/LandingPage/footer-bg.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+}
+
+@media (max-width: 4000px) {
+    .footer_bg {
+        background-image: url("../public/assets/LandingPage/footer-bg.png");
+        /* background-color: #015464; */
+        background-repeat: no-repeat;
+        background-size:cover;
+        object-position: center;
+    }
+}
+.footer_bg {
+    /* background-image: url("../public/assets/LandingPage/footer-bg.png"); */
+    /* background-color: #015464; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-position: center;
+   
+    
+    
+}
+
+
+
+.read_book_bg {
+    background-image: url("/assets/LandingPage/hero-bg-1.png");
+    background-repeat: no-repeat;
+}
+.trending_curve {
+    background-image: url("/assets/LandingPage/Trending curve.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.readbook{
+    background-image: url("/assets/Flipbook/readbook.png");
+        background-repeat: no-repeat;
+}
+
+/* Change slider thumb color to white */
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* For Firefox */
+input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* For IE and Edge */
+input[type="range"]::-ms-thumb {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: "Graphik";
+    src: url('../public/fonts/Graphik/GraphikRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: "GraphikBold";
+    src: url('../public/fonts/Graphik/GraphikBold.otf');
+    font-weight:bold;
+    font-style:bold;
+}
+@font-face {
+    font-family: "GraphikItalic";
+    src: url('../public/fonts/Graphik/GraphikRegularItalic.otf');
+    font-weight:italic;
+    font-style:italic;
+}
+
+.swiper-button-prev{
+background-repeat: no-repeat;
+width: 54px !important;
+height: 54px !important;
+top:300px !important;
+left:-20px!important;
+align-items: start;
+}
+
+
+.swiper-button-next {
+background-repeat: no-repeat;
+width: 54px !important;
+height: 54px !important;
+top: 300px !important;
+right:-20px !important;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .swiper-button-prev {
+        left: -20px !important;
+        top:370px !important;
+        align-items: start;
+    }
+
+    .swiper-button-next {
+        right: -20px !important;
+        top: 370px !important;
+        align-items: end;
+    }
+   
+    
+
+    /* body {
+        margin: 50%;
+    } */
+
+}
+
+.swiper-pagination-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #888;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+
+ 
+
+
+    .zoom_out {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }

@@ -4,13 +4,16 @@
 /node_modules
 /.pnp
 .pnp.js
+.vscode
+
 
 # testing
 /coverage
 
 # next.js
-/.next/
-/out/
+
+.next
+./next
 
 # production
 /build
@@ -33,6 +36,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Local Netlify folder
-.netlify
