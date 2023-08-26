@@ -7,7 +7,7 @@ import FQAbg from 'public/assets/FAQbg.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import img1 from 'public/assets/img1.png'
 import Ellipse from 'public/assets/Ellipse.png'
-import Lefe from 'public/assets/Lefe2.png'
+import Lefe from '/assets/lefe2.png'
 import Leaf2 from 'public/assets/leaf2.png'
 import lefe1 from 'public/assets/lefe1.png'
 
