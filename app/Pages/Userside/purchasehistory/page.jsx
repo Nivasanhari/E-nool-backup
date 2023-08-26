@@ -98,7 +98,7 @@ const page = () => {
             </div>
             <div className=" text-[#015464] font-bold">Ebook</div>
             <div className=" text-[#015464] font-bold">01-05-2023</div>
-          <div className=" text-[#015464] font-bold">01-05-2023</div>
+            <div className=" text-[#015464] font-bold">01-05-2023</div>
             <div>
               <button className=" mt- text-white bg-green-500 p-2 px-5 rounded-3xl">
                 sucess
@@ -141,7 +141,7 @@ const page = () => {
           <div className=" text-[#015464] font-bold">Ebook</div>
           <div className=" text-[#015464] font-bold">01-05-2023</div>
           <div className=" text-[#015464] font-bold">01-05-2023</div>
-          
+
           <div>
             <button className=" mt- text-white bg-green-500 p-2 px-5 rounded-3xl">
               sucess

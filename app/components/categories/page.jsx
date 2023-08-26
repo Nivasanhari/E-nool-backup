@@ -1,10 +1,10 @@
 "use client"
 import Image from 'next/image'
 import React, { Fragment, useState } from 'react'
-import Addbook from '@/app/Components/addBook/page'
+import Addbook from '@/app/components/addBook/page'
 import bgimg from 'public/assets/bg1.png'
 import book from 'public/assets/book.png'
-import Staricon from '@/app/Components/staricon/Staricon'
+import Staricon from '@/app/components/staricon/Staricon'
 import Lefe from 'public/assets/Lefe1.png'
 import img1 from 'public/assets/img1.png'
 import Add from 'public/assets/Add.png'
@@ -66,29 +66,29 @@ const page = () => {
                                 Categories
                             </button>
                             <div className=" absolute right-2 mt-4">
-                            <button onClick={enableGridView}>
-                                <Image
-                                    src={isGridView ? gridEnabled : gridDisabled}
-                                    alt='gridEnabled'
-                                    className="px-2 w-10"
-                                    width={10}
-                                    height={10}
-                                />
-                            </button>
-                            <button onClick={enableListView}>
-                                <Image
-                                    src={!isGridView ? listEnabled : listdisabled}
-                                    alt='listdisabled'
-                                    className="px-2 w-10 items-end"
-                                    width={10}
-                                    height={10}
-                                />
-                            </button>
+                                <button onClick={enableGridView}>
+                                    <Image
+                                        src={isGridView ? gridEnabled : gridDisabled}
+                                        alt='gridEnabled'
+                                        className="px-2 w-10"
+                                        width={10}
+                                        height={10}
+                                    />
+                                </button>
+                                <button onClick={enableListView}>
+                                    <Image
+                                        src={!isGridView ? listEnabled : listdisabled}
+                                        alt='listdisabled'
+                                        className="px-2 w-10 items-end"
+                                        width={10}
+                                        height={10}
+                                    />
+                                </button>
                             </div>
                         </div>
 
-                          
-                     
+
+
                         <div className="ml-36"> {isDropdownOpen && <CategoriesButton />}</div>
 
                         <hr className=' absolute w-24 p-1 bg-[#015464] mt-[-2]  ml-36' />
@@ -97,7 +97,7 @@ const page = () => {
                 </div>
 
                 <div className=' conatiner justify-center items-center mt-10  gap-10 flex'>
-                  
+
                 </div>
 
 

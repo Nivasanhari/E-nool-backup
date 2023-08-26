@@ -2,11 +2,11 @@
 import Image from 'next/image'
 import React, { Fragment, useState, useEffect, useRef } from 'react'
 import Mywishlist from '@/app/components/mywishlist/page'
-import Addbook from '@/app/Components/addBook/page'
+import Addbook from '@/app/components/addBook/page'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 import bgimg from 'public/assets/bg1.png'
 import book from 'public/assets/book.png'
-import Staricon from '@/app/Components/staricon/Staricon'
+import Staricon from '@/app/components/staricon/Staricon'
 import Lefe from 'public/assets/Lefe1.png'
 import img1 from 'public/assets/img1.png'
 import Add from 'public/assets/Add.png'
@@ -360,7 +360,7 @@ const page = () => {
 
 
                         </div>
-                        
+
 
                         <div ref={dropdownRef}>
 

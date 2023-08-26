@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const page = () => {
   const loginObject = "/assets/LoginPage/login-object.png";
-  
+
   return (
     <NoDefaultLayout>
       <div className="bg-white">
@@ -22,14 +22,14 @@ const page = () => {
 
           <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6">
             <Link href="/Pages/Userside/login">
-                <button className="absolute top-4 right-4 px-5 py-1 bg-[#015464] text-white rounded-full focus:outline-none hover:bg-[#408080]/90">
-                    Back
-                </button>
-             </Link>
+              <button className="absolute top-4 right-4 px-5 py-1 bg-[#015464] text-white rounded-full focus:outline-none hover:bg-[#408080]/90">
+                Back
+              </button>
+            </Link>
             <div className="flex-1">
               <div className="text-center">
                 <p className="mt-3 text-[#015464] font-black text-4xl">
-                 New Credentials
+                  New Credentials
                 </p>
                 <p className="mt-3 text-[#015464] text-[12px]"> Your Account Has Been Verified! <br /> set your New Password</p>
               </div>
@@ -73,7 +73,7 @@ const page = () => {
                   <div className="mt-6">
                     <Link href="/Pages/Userside/passwordupdated">
                       <button className="w-full px-5 py-5 tracking-wide text-white transition-colors duration-300 transform bg-[#408080] rounded hover:bg-[#408080]/90 ">
-                       Update
+                        Update
                       </button>
                     </Link>
                   </div>

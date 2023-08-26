@@ -6,14 +6,14 @@ const DefaultLayout = ({ children }) => {
     return (
         <div>            <div className="font-graphik">
 
-                <Navbar />
-                <div className='m-auto'>
-                </div>
-                {children}
-                <div className="w-full mt-96  md:mt-0 md:pt-0  ">
-                    <Footer />
-                </div>
+            <Navbar />
+            <div className='m-auto'>
             </div>
+            {children}
+            <div className="w-full mt-96  md:mt-0 md:pt-0  ">
+                <Footer />
+            </div>
+        </div>
         </div>
     );
 };

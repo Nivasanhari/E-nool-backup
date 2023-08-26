@@ -121,7 +121,7 @@ function NewAndNoteworthy(props) {
     ];
     return (
         <section className=" ">
-            
+
 
             <div className=" mx-auto  flex justify-between items-center sm:px-16 px-6 " >
                 <div className="  md-px-24 relative  container mx-auto">
@@ -136,7 +136,7 @@ function NewAndNoteworthy(props) {
                                 <button className=" text-white bg-[#015464] border-0 py-2 px-6 focus:outline-none w-28 h-10 rounded-[21px] text-sm "><h1 className="items-center">View all</h1></button></Link>
                         </div>
                     </div>
-                    
+
 
                     <Swiper
                         breakpoints={{
@@ -150,7 +150,7 @@ function NewAndNoteworthy(props) {
                             1024: {
                                 slidesPerView: 4,
                             },
-                          
+
 
                             1536: {
                                 slidesPerView: 5,

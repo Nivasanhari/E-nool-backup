@@ -4,7 +4,7 @@ import { useState } from "react";
 import bgimg from "public/assets/bg1.png";
 import Image from "next/image";
 import Link from "next/link";
-import Staricon from "@/app/Components/staricon/Staricon";
+import Staricon from "@/app/components/staricon/Staricon.jsx";
 import Lefe from "public/assets/Lefe1.png";
 import dash1 from "public/assets/Dashboard/dashimg.png";
 import dash2 from "public/assets/Dashboard/dashimg1.png";
@@ -31,57 +31,57 @@ const page = () => {
             Welcome, User Name!
           </h3>
           <p className="mt-2 text-[#14adad] text-[12px] font-graphikBold">Quicklinks</p>
-        </div>     
+        </div>
         <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={Lefe} alt="" />
       </div>
       <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 sm:items-center sm:justify-center gap-4 lg:gap-3">
         <Link href='/Pages/Userside/mylibrary'>
-        <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
-          <Image
-            className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
-            src={dash1}
-            alt="dash1-img"
-          />
-          <p className=" text-white px-5 p-6 rounded-xl font-bold">
-            My Library
-          </p>
-        </div>
+          <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
+            <Image
+              className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
+              src={dash1}
+              alt="dash1-img"
+            />
+            <p className=" text-white px-5 p-6 rounded-xl font-bold">
+              My Library
+            </p>
+          </div>
         </Link>
         <Link href='/Pages/Userside/purchasehistory'>
-        <div className=" flex  items-center bg-[#7CC9B5]  w-56 rounded-xl">
-          <Image
-            className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
-            src={dash2}
-            alt="dash1-img"
-          />
-          <button className=" text-white px-3 p-6 rounded-xl font-bold">
-            Purchase History
-          </button>
-        </div>
-      </Link>
+          <div className=" flex  items-center bg-[#7CC9B5]  w-56 rounded-xl">
+            <Image
+              className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
+              src={dash2}
+              alt="dash1-img"
+            />
+            <button className=" text-white px-3 p-6 rounded-xl font-bold">
+              Purchase History
+            </button>
+          </div>
+        </Link>
         <Link href='/Pages/Userside/paymentinfo'>
-        <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
-          <Image
-            className=" bg-[#015464] bg-cover p-5 py-7 w-auto rounded-xl"
-            src={dash3}
-            alt="dash1-img"
-          />
-          <p className=" text-white px-3 p-6 rounded-xl font-bold">
-            Payment Info
-          </p>
-        </div>
+          <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
+            <Image
+              className=" bg-[#015464] bg-cover p-5 py-7 w-auto rounded-xl"
+              src={dash3}
+              alt="dash1-img"
+            />
+            <p className=" text-white px-3 p-6 rounded-xl font-bold">
+              Payment Info
+            </p>
+          </div>
         </Link>
         <Link href='/Pages/Userside/terms&privacy'>
-        <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
-          <Image
-            className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
-            src={dash4}
-            alt="dash1-img"
-          />
-          <p className=" text-white px-3 p-6 rounded-xl font-bold">
-            Terms Of service
-          </p>
-        </div>
+          <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
+            <Image
+              className=" bg-[#015464] bg-cover p-5 w-auto rounded-xl"
+              src={dash4}
+              alt="dash1-img"
+            />
+            <p className=" text-white px-3 p-6 rounded-xl font-bold">
+              Terms Of service
+            </p>
+          </div>
         </Link>
 
         <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
@@ -95,26 +95,26 @@ const page = () => {
           </p>
         </div>
         <Link href='/Pages/Userside/subscription'>
-        <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
-          <Image
-            className=" bg-[#015464] bg-cover p-5 py-4 w-auto rounded-xl"
-            src={dash6}
-            alt="dash1-img"
-          />
-          <p className=" text-white px-5 p-6 rounded-xl font-bold">
-            Subscription
-          </p>
-        </div>
+          <div className=" flex  items-center bg-[#7CC9B5] w-56 rounded-xl">
+            <Image
+              className=" bg-[#015464] bg-cover p-5 py-4 w-auto rounded-xl"
+              src={dash6}
+              alt="dash1-img"
+            />
+            <p className=" text-white px-5 p-6 rounded-xl font-bold">
+              Subscription
+            </p>
+          </div>
         </Link>
 
-        
+
       </div>
       {/* <Image className=" hidden lg:block absolute  z-0 bottom-36 w-28 " src={Lefe} alt="" /> */}
 
       <div className=" mt-40 items-center flex mx-auto container ">
-        
+
         <div className=" bg-white shadow-lg sm:w-4/5  rounded-2xl p-10 mr-40 ">
-        <h1 className=" text-[#015464] text-xl font-graphikBold">Activities</h1>
+          <h1 className=" text-[#015464] text-xl font-graphikBold">Activities</h1>
           <div className="">
             <div className="flex mt-8 gap-5 space-x-9">
               <button
@@ -137,81 +137,81 @@ const page = () => {
               </button>
             </div>
 
-              
 
-              {activeContent === 'all' && (
+
+            {activeContent === 'all' && (
               <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-1 sm:grid-cols-1 sm:items-center lg:grid-cols-2 gap-4  lg:gap-3">
-                  <div className=" flex mt-10 items-center">
-                    <div>
-                      <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
-                    </div>
-                    <div className=" ml-10 item-centre ">
-                      <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
+                <div className=" flex mt-10 items-center">
+                  <div>
+                    <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
+                  </div>
+                  <div className=" ml-10 item-centre ">
+                    <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
                     <h1 className=" text-[#015464]  text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
-                      <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
-                      <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
-                    </div>
-                  </div>
-
-                  <div className=" flex mt-10 items-center">
-                    <div>
-                      <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
-                    </div>
-                    <div className=" ml-10 item-centre ">
-                      <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
-                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
-                      <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
-                      <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
-                    </div>
-                  </div>
-
-                  <div className=" flex mt-10 items-center">
-                    <div>
-                      <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
-                    </div>
-                    <div className=" ml-10 item-centre ">
-                      <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
-                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
-                      <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
-                      <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
-                    </div>
-                  </div>
-
-                  <div className=" flex mt-10 items-center">
-                    <div>
-                      <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
-                    </div>
-                    <div className=" ml-10 item-centre ">
-                      <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
-                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
-                      <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
-                      <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
-                    </div>
+                    <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
+                    <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
                   </div>
                 </div>
-               
-              )}
-              {activeContent === 'subscription' && (
-                <div>
-                  <h3 className="  text-[#015464] text-2xl font-black mt-32 ">
-                    No Subscription
-                  </h3>
-                </div>
-              )}
-              {activeContent === 'downloads' && (
-                <div>
-                  <h3 className="  text-[#015464] text-2xl font-black mt-32 ">
-                    No downloads
-                  </h3>
-                </div>
-              )}
-              
-              
-              
-         
 
-  
-           
+                <div className=" flex mt-10 items-center">
+                  <div>
+                    <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
+                  </div>
+                  <div className=" ml-10 item-centre ">
+                    <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
+                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
+                    <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
+                    <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
+                  </div>
+                </div>
+
+                <div className=" flex mt-10 items-center">
+                  <div>
+                    <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
+                  </div>
+                  <div className=" ml-10 item-centre ">
+                    <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
+                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
+                    <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
+                    <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
+                  </div>
+                </div>
+
+                <div className=" flex mt-10 items-center">
+                  <div>
+                    <Image className=" rounded w-56 object-cover object-center mb-4" src={book} alt="content" />
+                  </div>
+                  <div className=" ml-10 item-centre ">
+                    <button className=" bg-[#7CC9B5] p-2 px-4 text-white rounded-3xl">Subscription</button>
+                    <h1 className=" text-[#015464] font text-xl mt-6 font-graphikBold">King of Battle and Blood</h1>
+                    <p className=" text-[#14adad] mt-5">by Scarlett st. clair</p>
+                    <p className=" text-[#015464] font-semibold mt-3">May 21,2023</p>
+                  </div>
+                </div>
+              </div>
+
+            )}
+            {activeContent === 'subscription' && (
+              <div>
+                <h3 className="  text-[#015464] text-2xl font-black mt-32 ">
+                  No Subscription
+                </h3>
+              </div>
+            )}
+            {activeContent === 'downloads' && (
+              <div>
+                <h3 className="  text-[#015464] text-2xl font-black mt-32 ">
+                  No downloads
+                </h3>
+              </div>
+            )}
+
+
+
+
+
+
+
 
           </div>
         </div>
@@ -258,7 +258,7 @@ const page = () => {
 
       </div>
     </div>
-    </DefaultLayout>
+  </DefaultLayout>
   );
 };
 

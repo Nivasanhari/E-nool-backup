@@ -14,9 +14,9 @@ const Flipbook = () => {
              <Image className=" absolute z-50 right-0  " src={Leaf2} alt="" />        
             </div> */}
             <div className="read_book_bg"></div>
-             <FlipbookPlayer/>
-         
-    </section>
+            <FlipbookPlayer />
+
+        </section>
     );
 };
 

@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 import Aboutbg from 'public/assets/aboutbg.png'
 import Leaf from 'public/assets/LandingPage/Leaf1.png'
@@ -71,7 +71,7 @@ const page = () => {
         return emailRegex.test(email);
     }
 
-   
+
     return (<DefaultLayout >
         <div className='  bg-white '>
             <Image className=' relative h-[400px]' src={Aboutbg} />
@@ -100,20 +100,20 @@ const page = () => {
                                 value={formData.name}
                                 onChange={handleInputChange}
                             />
-                           
+
                         </div>
-                         {errors.email && <span className='text-red-500 text-xs'>{errors.name}</span>}
+                        {errors.email && <span className='text-red-500 text-xs'>{errors.name}</span>}
                         <div className=' flex items-center'>
-                            <Image className=' absolute ml-3' src={Contact2} alt='Contact2-img'/>
-                            <input className=' pl-10 outline-0 p-3 pr-28 text-[11px] rounded text-[#14adad]' type='text' 
-                            placeholder='Email'
+                            <Image className=' absolute ml-3' src={Contact2} alt='Contact2-img' />
+                            <input className=' pl-10 outline-0 p-3 pr-28 text-[11px] rounded text-[#14adad]' type='text'
+                                placeholder='Email'
                                 name='email'
                                 value={formData.email}
                                 onChange={handleInputChange} />
                         </div>
                         {errors.email && <span className='text-red-500 text-xs'>{errors.email}</span>}
                         <div className=' flex items-center'>
-                            <Image className=' absolute ml-3' src={Contact3} alt='Contact3-img'/>
+                            <Image className=' absolute ml-3' src={Contact3} alt='Contact3-img' />
                             <input className=' pl-10 outline-0 p-3 pr-28 text-[11px] rounded text-[#14adad]' type='text' placeholder='Subject' />
                         </div>
                         <div className=' flex mt-5 items-centre'>
@@ -121,7 +121,7 @@ const page = () => {
 
                             <textarea className=' outline-0  rounded text-[11px] placeholder:pt-3 placeholder:pl-8' type='type' placeholder=' Send Message' cols="44" rows="5"></textarea>
                         </div>
-                        
+
                         <button className=' text-white bg-[#7CC9B5] text-[11px] rounded-xl mt-5 p-2'>Send Message</button>
                     </form>
                 </div>
@@ -165,11 +165,11 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-              
-                
+
+
             </div>
         </div>
-        </DefaultLayout>
+    </DefaultLayout>
     )
 }
 

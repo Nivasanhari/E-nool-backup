@@ -20,7 +20,7 @@ const page = () => {
         {/* <Image className=' absolute rotate-12 mt-10 ml-60 h-[1578px] ' src={bg} alt='feedback-bg-img' /> */}
         <div className=' relative justify-center mb-20 flex'>
           <h1 className=' mt-48 text-4xl font-extrabold w-[500px] text-[#015464] font-graphikBold  text-center leading-loose'>Thank You For Subscribing! Write Your Feedback!</h1>
-            <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={lefe1} alt="" />
+          <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={lefe1} alt="" />
         </div>
         <div className=' container bg-[#7CC9B5] rounded-3xl h-[550px] m-auto w-[800px]'>
           <div className=' ml-12 text-white '>
@@ -51,15 +51,15 @@ const page = () => {
             </div>
             <button className=' text-sm p-1 rounded-xl bg-[#015464] px-5'>Submit</button>
           </div>
-          
+
         </div>
         <div className=' mt-10 flex justify-center items-center'>
-            <button className='  p-3 px-10 text-white rounded-3xl bg-[#7CC9B5]'>Back to Home</button>
-          </div>
+          <button className='  p-3 px-10 text-white rounded-3xl bg-[#7CC9B5]'>Back to Home</button>
+        </div>
       </div>
 
     </div>
-    </DefaultLayout>
+  </DefaultLayout>
   );
 };
 

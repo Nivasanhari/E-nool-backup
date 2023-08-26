@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import React, { Fragment, useState,useEffect,useRef } from "react";
-import Addbook from "@/app/Components/addBook/page";
+import React, { Fragment, useState, useEffect, useRef } from "react";
+import Addbook from "@/app/components/addBook/page";
 import bgimg from "public/assets/bg1.png";
 import book from "public/assets/book.png";
-import Staricon from "@/app/Components/staricon/Staricon";
+import Staricon from "@/app/components/staricon/Staricon";
 import TrendingReads1 from 'public/assets/LandingPage/TrendingReads1.png';
 
 import Lefe from "public/assets/Lefe1.png";

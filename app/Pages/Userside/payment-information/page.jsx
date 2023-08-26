@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Coupon from "@/app/Components/Coupon/page";
+import Coupon from "@/app/components/Coupon/page";
 import React, { Fragment, useState } from "react";
 import bg from "public/assets/bg1.png";
 import Lefe from "public/assets/Lefe1.png";

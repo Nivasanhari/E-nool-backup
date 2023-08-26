@@ -71,12 +71,12 @@ export default function Navbar() {
                                     How It Works
                                 </button>
                                 <Link href='/Pages/Userside/publisher'>
-                                <button
-                                    href="#"
-                                    className="text-[#408080] hover:text-[#565656] px-3 py-2 rounded-md text-sm font-extrabold"
-                                >
-                                    Publisher
-                                </button>
+                                    <button
+                                        href="#"
+                                        className="text-[#408080] hover:text-[#565656] px-3 py-2 rounded-md text-sm font-extrabold"
+                                    >
+                                        Publisher
+                                    </button>
                                 </Link>
                             </div>
                         </div>

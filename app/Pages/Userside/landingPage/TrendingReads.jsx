@@ -136,8 +136,8 @@ function TrendingReads(props) {
             </div>
           </div>
           <Image className=" hidden lg:block absolute z-0 w-16 -right-16  mt-80 transform -scale-x-100" src={Leaf1} alt="" />
-<div className=" relative z-0">
-          <Swiper
+          <div className=" relative z-0">
+            <Swiper
               breakpoints={{
                 640: {
                   slidesPerView: 2,
@@ -157,43 +157,43 @@ function TrendingReads(props) {
 
               }}
 
-            spaceBetween={1}
-            freeMode={true}
-            navigation={{
-              nextEl: '.swiper-button-next-1',
-              prevEl: '.swiper-button-prev-1',
-              hiddenClass: 'swiper-button-hidden',
-            }}
+              spaceBetween={1}
+              freeMode={true}
+              navigation={{
+                nextEl: '.swiper-button-next-1',
+                prevEl: '.swiper-button-prev-1',
+                hiddenClass: 'swiper-button-hidden',
+              }}
 
-            modules={[FreeMode, Navigation]}
-            className="mySwiper"
-          >
-
-
-
-            {bookData.map((book) => (
-              <div className="pt-10 relative z-10">
-              <SwiperSlide>
-
-                <CarouselCardItems
-                  key={book.id}
-
-                  title={book.title}
-                  author={book.author}
-                  rating={book.rating}
-                  ratingCount={book.ratingCount}
-                  currency={book.currency}
-                  price={book.price}
-                  imageSrc={book.imageSrc} />
-
-              </SwiperSlide>
-              </div>
-            ))}
+              modules={[FreeMode, Navigation]}
+              className="mySwiper"
+            >
 
 
 
+              {bookData.map((book) => (
+                <div className="pt-10 relative z-10">
+                  <SwiperSlide>
 
-          </Swiper>
+                    <CarouselCardItems
+                      key={book.id}
+
+                      title={book.title}
+                      author={book.author}
+                      rating={book.rating}
+                      ratingCount={book.ratingCount}
+                      currency={book.currency}
+                      price={book.price}
+                      imageSrc={book.imageSrc} />
+
+                  </SwiperSlide>
+                </div>
+              ))}
+
+
+
+
+            </Swiper>
           </div>
 
           <div className="swiper-navigation-buttons">
@@ -202,7 +202,7 @@ function TrendingReads(props) {
           </div>
           <Image src={cloud} className="hidden lg:block absolute -z-10 right-96  top-96 mt-96 " />
         </div>
-    
+
 
 
 
@@ -211,7 +211,7 @@ function TrendingReads(props) {
 
 
       </div>
-    
+
 
     </section>
   )

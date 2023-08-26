@@ -12,7 +12,7 @@ const page = () => {
   const logo = "/icons/eNOOL_Logo.svg";
   const logineye = "/assets/LoginPage/logineye.svg";
   const logineyeclosed = "/assets/LoginPage/logineyeclosed.svg";
-  
+
   const [showPassword, setShowPassword] = useState(false);
   const handleTogglePassword = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);

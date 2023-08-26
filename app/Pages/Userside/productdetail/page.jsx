@@ -56,8 +56,8 @@ const productdetail = () => {
                     </div>
                   </div>
                 </li>
-                
-                
+
+
 
                 <li className="text-left">
                   <div className="flex items-center">
@@ -88,7 +88,7 @@ const productdetail = () => {
                   </div>
                 </li>
 
-          
+
               </ol>
             </nav>
 
@@ -245,8 +245,8 @@ const productdetail = () => {
 
         <NewAndNoteworthy />
 
-    </div>
-   </DefaultLayout>
+      </div>
+    </DefaultLayout>
   );
 };
 

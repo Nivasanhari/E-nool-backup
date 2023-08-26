@@ -42,9 +42,9 @@ const page = () => {
                     <div className=" z-0 h-[2px] max-w-7xl bg-[#0FBF61] opacity-20 rounded mb-5"></div>
                 </div>
             </div>
-            <Paymentmethod isVisivle={showModal} onClose={() => setShowModal(false)}/>
+            <Paymentmethod isVisivle={showModal} onClose={() => setShowModal(false)} />
         </Fragment>
-        </DefaultLayout>
+    </DefaultLayout>
     )
 }
 

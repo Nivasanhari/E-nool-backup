@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import bgimg from 'public/assets/bg1.png'
 import Image from 'next/image'
-import Staricon from '@/app/Components/staricon/Staricon'
+import Staricon from '@/app/components/staricon/Staricon'
 import Lefe from 'public/assets/Lefe1.png'
 import Profile from 'public/assets/profile.png'
 import book from 'public/assets/book.png'
