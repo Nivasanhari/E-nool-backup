@@ -1,11 +1,11 @@
-"use strict";
-exports.id = 5603;
-exports.ids = [5603];
+exports.id = 2837;
+exports.ids = [2837];
 exports.modules = {
 
 /***/ 71066:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -17,6 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 50565:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -25,14 +26,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 95875:
+/***/ 76159:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe2.c0892c82.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAf0lEQVR42mMI3d3ByAAEvrtaONIOTJRjAIHg3e1CsXt7ypP3T8hhAIHIPV2Gifv6ZkTu6dZnAIHU/RP9E/b12TCAQObByXapByZaZRycLFN6ZDYLQ/nROWxhezpFkvb3l4Tv6WRmAAGgYfzpByY5MsBA0eGZooWHZ0gzMDAwAADC9iskupzWpgAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/publisher-book.708edda2.png","height":421,"width":512,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AXh3dJD9/Pw09/j4FvPz8yXTtqU+CDpMw3U662AEDQf0ASAgIOQQEhIbCAgJAPf3+QAqOjmxEg8Q4D4Rv28dHQPiASQrL80MDA0y8Pb1/SIfHQEdLzICFBUYABsF7AAL+dpwARkcG8bn5OU5WFdW/iInKgLgAgb9LSss/ff9AAa40txVATU5O7tJPz1ELR8c+uv09wWSyc8AKyUm/Tc5OATV0tBQARsaG7dVWltIU0pMAOjTzACw7/cA+Pj5ACQnKADr7OxMASYmJqXa2torhImOrB4HAuW+9vxwIyQl9PDv7tPT2NmJShtiyv2m48YAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
+
+/***/ }),
+
+/***/ 12119:
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ 23141:
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ 63754:
+/***/ (() => {
+
+
 
 /***/ })
 

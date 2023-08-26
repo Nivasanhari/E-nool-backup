@@ -340,28 +340,27 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 41284:
+/***/ 47075:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83974));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84136));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 90122));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 46163));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71066));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 95875));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37063));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50882))
@@ -403,8 +402,6 @@ var lefe1 = __webpack_require__(15363);
 var terms = __webpack_require__(77386);
 // EXTERNAL MODULE: ./public/assets/leaf2.png
 var leaf2 = __webpack_require__(3350);
-// EXTERNAL MODULE: ./public/assets/lefe2.png
-var lefe2 = __webpack_require__(65881);
 // EXTERNAL MODULE: ./app/components/DefaultLayout/layout.js + 11 modules
 var layout = __webpack_require__(20679);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/terms&privacy/page.jsx
@@ -419,7 +416,7 @@ var layout = __webpack_require__(20679);
 
 
 
-
+//import Lefe2 from 'public/assets/lefe2.png'
 
 const privacy = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx(layout/* default */.Z, {
@@ -623,10 +620,6 @@ const privacy = ()=>{
                             src: leaf2/* default */.Z
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 ",
-                            src: lefe2/* default */.Z
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             className: " hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 ",
                             src: img1/* default */.Z
                         }),
@@ -655,6 +648,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/privacy policy.3ea311e8.png","height":200,"width":1375,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABAQMAAADZzn0AAAAABlBMVEUATmIATmIezQKQAAAAAnRSTlMEBWKV/LMAAAANSURBVHjaAQIA/f8ApgCoAKdHFihtAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":1});
 
+/***/ }),
+
+/***/ 77386:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/terms.3f6bd2b2.png","height":585,"width":635,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAvElEQVR42mM4sGsPx+dXLznPnTzFffnyFcH///8zMSADrcgMD66QFBcG62DR40eP8QGFGFEU7NqzN+bAocNTtu/c5QfiTymq8E33jdAFseO9QpkYjh87ZnDu3LmYY4ePWMfkVugZxmTfYAhNTQQp6JuzkBVEgwimSBEnqdaSWkcGn9jb1v7xU+FWzJ6zkOnkkSNMfqXlzFChyUcOHn7+9+/fJe/evXOGK0wJS4ApyAP65v/Xr1//v337bgYAwZtNv7v2pQUAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
+
+/***/ }),
+
+/***/ 37063:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/terms.3f6bd2b2.png","height":585,"width":635,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAvElEQVR42mM4sGsPx+dXLznPnTzFffnyFcH///8zMSADrcgMD66QFBcG62DR40eP8QGFGFEU7NqzN+bAocNTtu/c5QfiTymq8E33jdAFseO9QpkYjh87ZnDu3LmYY4ePWMfkVugZxmTfYAhNTQQp6JuzkBVEgwimSBEnqdaSWkcGn9jb1v7xU+FWzJ6zkOnkkSNMfqXlzFChyUcOHn7+9+/fJe/evXOGK0wJS4ApyAP65v/Xr1//v337bgYAwZtNv7v2pQUAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
+
 /***/ })
 
 };
@@ -664,7 +680,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,1742,679,5603,3393,2587,6066], () => (__webpack_exec__(30208)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,1742,679,9863,9253], () => (__webpack_exec__(30208)));
 module.exports = __webpack_exports__;
 
 })();

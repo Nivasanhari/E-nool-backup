@@ -340,31 +340,30 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 83678:
+/***/ 44005:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83974));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84136));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 90122));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 46163));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 95875));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27234))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27234));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942))
 
 /***/ }),
 
@@ -401,8 +400,6 @@ var aboutbg = __webpack_require__(75632);
 var img1 = __webpack_require__(21152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
 var Ellipse = __webpack_require__(6385);
-// EXTERNAL MODULE: ./public/assets/lefe2.png
-var lefe2 = __webpack_require__(65881);
 // EXTERNAL MODULE: ./public/assets/leaf2.png
 var leaf2 = __webpack_require__(3350);
 // EXTERNAL MODULE: ./public/assets/lefe1.png
@@ -418,7 +415,7 @@ var lefe1 = __webpack_require__(15363);
 
 
 
-
+// import Lefe from 'public/assets/lefe2.png'
 
 
 const FQA = ()=>{
@@ -905,10 +902,6 @@ const FQA = ()=>{
                             src: leaf2/* default */.Z
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 ",
-                            src: lefe2/* default */.Z
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             className: " hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 ",
                             src: img1/* default */.Z
                         }),
@@ -949,29 +942,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/fqa.1432c5e2.png","height":616,"width":606,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+Adjd6DgMCQkfoK2uM7/V11a96ev4HQ0LseOilHjV2uP/AeXn8pTc4uJrP2d1AE9BNdwfEhHmkrjBPp5zatlJOzrSAfb//yG3pauB3ePjE2BscprW1tYbaX18lX9dVt49SVKYAfbP2Sux+d6uGA0QywztCcM1jZWIhTYaECw+KZo0FC1nAQC4igCK/B22FQ0SB7GfuSqw6/EYiV9Ds/gD+OfXA/BnAQD//AUAanqeUCobE+nx6tkA/wHY2Pr7H+/d7jdojk5jAUe4iOLz3P8Kyujudg7x8VYHCQkGDREGtgj+A3QZNxcHAUa0j6H83QERDPERqeHx4XkDAgb/GxMajfH/6EsKLgoFGKJ/VKVx17AAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 
-/***/ }),
-
-/***/ 3350:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/leaf2.a885d738.png","height":321,"width":181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAcklEQVR42mNABlZHpoq6MthzMVgdmMwIErA4M9vd8vj0ZLgKi4tz5SxPzZxofmW+LFgAqirY4uzsBLARh6cygwUtT89KBgqqgxVcmMvEYHFpHpPF6Vlh5pfns8K1AlVoAc3TA+s4MYMRLGh2aoYIAxoAAF/OJHg+aQpGAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
-
-/***/ }),
-
-/***/ 11189:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/leaf2.a885d738.png","height":321,"width":181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAcklEQVR42mNABlZHpoq6MthzMVgdmMwIErA4M9vd8vj0ZLgKi4tz5SxPzZxofmW+LFgAqirY4uzsBLARh6cygwUtT89KBgqqgxVcmMvEYHFpHpPF6Vlh5pfns8K1AlVoAc3TA+s4MYMRLGh2aoYIAxoAAF/OJHg+aQpGAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
-
 /***/ })
 
 };
@@ -981,7 +951,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,1742,679,5603,3393,2587], () => (__webpack_exec__(46053)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,1742,679,9863,9253], () => (__webpack_exec__(46053)));
 module.exports = __webpack_exports__;
 
 })();

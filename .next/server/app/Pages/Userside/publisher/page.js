@@ -368,28 +368,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var public_assets_grp1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(84344);
 /* harmony import */ var public_assets_Ellipse_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(79942);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(14899);
-/* harmony import */ var public_assets_lefe2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(95875);
-/* harmony import */ var public_assets_grid_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(83137);
-/* harmony import */ var public_assets_arrowicon_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(84802);
-/* harmony import */ var public_assets_img2_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(50708);
-/* harmony import */ var public_assets_img3_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(36099);
-/* harmony import */ var public_assets_img4_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(72943);
-/* harmony import */ var public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(30522);
-/* harmony import */ var public_assets_group_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(46050);
-/* harmony import */ var public_assets_rectangle2_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(84325);
-/* harmony import */ var public_assets_group2_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(77235);
-/* harmony import */ var public_assets_group3_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(37364);
-/* harmony import */ var public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(76159);
-/* harmony import */ var _app_Pages_Userside_landingPage_FeaturedPublishers__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(18770);
-/* harmony import */ var _app_components_DefaultLayout_layout__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(86543);
-/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(2797);
-/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(11987);
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(63754);
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(23141);
-/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(swiper_css_pagination__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(12119);
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var public_assets_grid_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(83137);
+/* harmony import */ var public_assets_arrowicon_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(84802);
+/* harmony import */ var public_assets_img2_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(50708);
+/* harmony import */ var public_assets_img3_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(36099);
+/* harmony import */ var public_assets_img4_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(72943);
+/* harmony import */ var public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(30522);
+/* harmony import */ var public_assets_group_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(46050);
+/* harmony import */ var public_assets_rectangle2_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(84325);
+/* harmony import */ var public_assets_group2_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(77235);
+/* harmony import */ var public_assets_group3_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(37364);
+/* harmony import */ var public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(76159);
+/* harmony import */ var _app_Pages_Userside_landingPage_FeaturedPublishers__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(18770);
+/* harmony import */ var _app_components_DefaultLayout_layout__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(86543);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(2797);
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(11987);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(63754);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(23141);
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(swiper_css_pagination__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(12119);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_27__);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
@@ -401,7 +400,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
+// import Lefe from "public/assets/lefe2.png";
 
 
 
@@ -438,7 +437,7 @@ function Publisher() {
             clearTimeout(autoplayTimeout);
         };
     }, []);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_DefaultLayout_layout__WEBPACK_IMPORTED_MODULE_23__/* ["default"] */ .Z, {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_DefaultLayout_layout__WEBPACK_IMPORTED_MODULE_22__/* ["default"] */ .Z, {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: " m-auto font-graphik",
             children: [
@@ -575,7 +574,7 @@ function Publisher() {
                                                     className: "relative flex items-end overflow-hidden rounded-xl",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                         className: "h-28 m-6 md:items-center mx-auto",
-                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_10__["default"],
                                                         alt: "grid-img"
                                                     })
                                                 }),
@@ -601,7 +600,7 @@ function Publisher() {
                                                     className: "relative flex items-end overflow-hidden rounded-xl",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                         className: "h-28 m-6 md:items-center mx-auto",
-                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_10__["default"],
                                                         alt: "grid-img"
                                                     })
                                                 }),
@@ -627,7 +626,7 @@ function Publisher() {
                                                     className: "relative flex items-end overflow-hidden rounded-xl",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                         className: "h-28 m-6 md:items-center mx-auto",
-                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+                                                        src: public_assets_grid_png__WEBPACK_IMPORTED_MODULE_10__["default"],
                                                         alt: "grid-img"
                                                     })
                                                 }),
@@ -669,7 +668,7 @@ function Publisher() {
                                             className: "relative flex items-end overflow-hidden rounded-xl",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: "h-28 m-6 md:items-center mx-auto",
-                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_14__["default"],
                                                 alt: "grid-img"
                                             })
                                         }),
@@ -693,7 +692,7 @@ function Publisher() {
                                             className: "relative flex items-end overflow-hidden rounded-xl",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: "h-28 m-6 md:items-center mx-auto",
-                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_14__["default"],
                                                 alt: "grid-img"
                                             })
                                         }),
@@ -717,7 +716,7 @@ function Publisher() {
                                             className: "relative flex items-end overflow-hidden rounded-xl",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: "h-28 m-6 md:items-center mx-auto",
-                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+                                                src: public_assets_img4_png__WEBPACK_IMPORTED_MODULE_14__["default"],
                                                 alt: "grid-img"
                                             })
                                         }),
@@ -749,7 +748,7 @@ function Publisher() {
                             className: " p-5 text-sm font-graphik w-3/4 mx-auto",
                             children: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."'
                         }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_24__/* .Swiper */ .tq, {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_23__/* .Swiper */ .tq, {
                             ref: swiperRef,
                             spaceBetween: 3,
                             centeredSlides: true,
@@ -766,13 +765,13 @@ function Publisher() {
                                 }
                             },
                             modules: [
-                                swiper_modules__WEBPACK_IMPORTED_MODULE_25__/* .Autoplay */ .pt,
-                                swiper_modules__WEBPACK_IMPORTED_MODULE_25__/* .Pagination */ .tl,
-                                swiper_modules__WEBPACK_IMPORTED_MODULE_25__/* .Navigation */ .W_
+                                swiper_modules__WEBPACK_IMPORTED_MODULE_24__/* .Autoplay */ .pt,
+                                swiper_modules__WEBPACK_IMPORTED_MODULE_24__/* .Pagination */ .tl,
+                                swiper_modules__WEBPACK_IMPORTED_MODULE_24__/* .Navigation */ .W_
                             ],
                             className: "mySwiper",
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_24__/* .SwiperSlide */ .o5, {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_23__/* .SwiperSlide */ .o5, {
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "container mx-auto flex px-5 py-10 md:flex-row flex-col items-center",
                                         children: [
@@ -797,13 +796,13 @@ function Publisher() {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                     className: "object-cover object-center rounded",
                                                     alt: "hero",
-                                                    src: public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_21__/* ["default"] */ .Z
+                                                    src: public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_20__/* ["default"] */ .Z
                                                 })
                                             })
                                         ]
                                     })
                                 }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_24__/* .SwiperSlide */ .o5, {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_23__/* .SwiperSlide */ .o5, {
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "container mx-auto flex px-5 py-10 md:flex-row flex-col items-center",
                                         children: [
@@ -828,7 +827,7 @@ function Publisher() {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                     className: "object-cover object-center rounded",
                                                     alt: "hero",
-                                                    src: public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_21__/* ["default"] */ .Z
+                                                    src: public_assets_publisher_book_png__WEBPACK_IMPORTED_MODULE_20__/* ["default"] */ .Z
                                                 })
                                             })
                                         ]
@@ -877,7 +876,7 @@ function Publisher() {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: " w-40 m-auto mt-5",
-                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_15__["default"],
                                                 alt: ""
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
@@ -895,7 +894,7 @@ function Publisher() {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: " w-40 m-auto mt-5",
-                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_15__["default"],
                                                 alt: ""
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
@@ -913,7 +912,7 @@ function Publisher() {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: " w-40 m-auto mt-5",
-                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_15__["default"],
                                                 alt: ""
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
@@ -931,7 +930,7 @@ function Publisher() {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                 className: " w-40 m-auto mt-5",
-                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+                                                src: public_assets_Mask_Group_5_png__WEBPACK_IMPORTED_MODULE_15__["default"],
                                                 alt: ""
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
@@ -949,7 +948,7 @@ function Publisher() {
                         ]
                     })
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_Pages_Userside_landingPage_FeaturedPublishers__WEBPACK_IMPORTED_MODULE_22__/* ["default"] */ .Z, {}),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_Pages_Userside_landingPage_FeaturedPublishers__WEBPACK_IMPORTED_MODULE_21__/* ["default"] */ .Z, {}),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: " bg-[#F9F9F9]",
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
@@ -1177,7 +1176,7 @@ function Publisher() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 className: "object-cover object-center rounded",
                                 alt: "hero",
-                                src: public_assets_group3_png__WEBPACK_IMPORTED_MODULE_20__["default"]
+                                src: public_assets_group3_png__WEBPACK_IMPORTED_MODULE_19__["default"]
                             })
                         })
                     ]
@@ -1310,38 +1309,6 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
-/***/ }),
-
-/***/ 76159:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/publisher-book.708edda2.png","height":421,"width":512,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AXh3dJD9/Pw09/j4FvPz8yXTtqU+CDpMw3U662AEDQf0ASAgIOQQEhIbCAgJAPf3+QAqOjmxEg8Q4D4Rv28dHQPiASQrL80MDA0y8Pb1/SIfHQEdLzICFBUYABsF7AAL+dpwARkcG8bn5OU5WFdW/iInKgLgAgb9LSss/ff9AAa40txVATU5O7tJPz1ELR8c+uv09wWSyc8AKyUm/Tc5OATV0tBQARsaG7dVWltIU0pMAOjTzACw7/cA+Pj5ACQnKADr7OxMASYmJqXa2torhImOrB4HAuW+9vxwIyQl9PDv7tPT2NmJShtiyv2m48YAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
-
-/***/ }),
-
-/***/ 12119:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 23141:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 63754:
-/***/ (() => {
-
-
-
 /***/ })
 
 };
@@ -1351,7 +1318,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,9240,6543,1742,6045,8770,5603,941], () => (__webpack_exec__(15)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,9240,6543,1742,6045,8770,941,2837], () => (__webpack_exec__(15)));
 module.exports = __webpack_exports__;
 
 })();

@@ -8,7 +8,7 @@ import Ellipse from 'public/assets/Ellipse.png'
 import Lefe from 'public/assets/lefe1.png'
 import Terms from 'public/assets/terms.png'
 import Leaf2 from 'public/assets/leaf2.png'
-import Lefe2 from 'public/assets/lefe2.png'
+//import Lefe2 from 'public/assets/lefe2.png'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 
 const privacy = () => {
@@ -96,7 +96,7 @@ const privacy = () => {
                     <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 " src={Leaf2} />
-                <Image className=" hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 " src={Lefe2} />
+                {/* <Image className=" hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 " src={Lefe2} /> */}
                 <Image className=" hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 " src={img1} />
                 <Image className=" hidden lg:block absolute top-[1380px] z-0 bottom-36 right-20 w-20 " src={Ellipse} />
             </div>

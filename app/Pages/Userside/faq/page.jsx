@@ -7,7 +7,7 @@ import FQAbg from 'public/assets/FAQbg.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import img1 from 'public/assets/img1.png'
 import Ellipse from 'public/assets/Ellipse.png'
-import Lefe from 'public/assets/lefe2.png'
+// import Lefe from 'public/assets/lefe2.png'
 import Leaf2 from 'public/assets/leaf2.png'
 import lefe1 from 'public/assets/lefe1.png'
 
@@ -218,7 +218,7 @@ const FQA = () => {
                     </div>
                 </div>
                 <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 " src={Leaf2} />
-                <Image className=" hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 " src={Lefe} />
+                {/* <Image className=" hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 " src={Lefe} /> */}
                 <Image className=" hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 " src={img1} />
                 <Image className=" hidden lg:block absolute top-[1380px] z-0 bottom-36 right-20 w-20 " src={Ellipse} />
             </div>

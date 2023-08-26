@@ -9,7 +9,7 @@ import LefeBg from "public/assets/lefe1.png";
 import grp1 from "public/assets/grp1.png";
 import Ellipse from "public/assets/Ellipse.png";
 import img1 from "public/assets/img1.png";
-import Lefe from "public/assets/lefe2.png";
+// import Lefe from "public/assets/lefe2.png";
 import grid from "public/assets/grid.png";
 import arrowicon from "public/assets/arrowicon.png";
 import img2 from "public/assets/img2.png";
