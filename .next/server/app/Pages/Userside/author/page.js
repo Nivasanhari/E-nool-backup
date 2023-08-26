@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var public_assets_grp1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(84344);
 /* harmony import */ var public_assets_Ellipse_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(79942);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(14899);
-/* harmony import */ var public_assets_Lefe2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(18702);
+/* harmony import */ var public_assets_lefe2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(95875);
 /* harmony import */ var public_assets_grid_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(83137);
 /* harmony import */ var public_assets_arrowicon_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(84802);
 /* harmony import */ var public_assets_img2_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(50708);
@@ -1346,7 +1346,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,3956,6580,9240,6543,1742,6045,8770,8055,941], () => (__webpack_exec__(92834)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,9240,6543,1742,6045,8770,5603,941], () => (__webpack_exec__(92834)));
 module.exports = __webpack_exports__;
 
 })();
