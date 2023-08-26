@@ -342,7 +342,7 @@ const e0 = proxy["CarouselCards"];
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,2547,9769,805,9290], () => (__webpack_exec__(89509)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,2547,3956,805,9290], () => (__webpack_exec__(89509)));
 module.exports = __webpack_exports__;
 
 })();
