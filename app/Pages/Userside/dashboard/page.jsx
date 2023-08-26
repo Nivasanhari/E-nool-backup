@@ -5,7 +5,7 @@ import bgimg from "public/assets/bg1.png";
 import Image from "next/image";
 import Link from "next/link";
 import Staricon from "@/app/components/staricon/Staricon.jsx";
-import Lefe from "public/assets/Lefe1.png";
+import Lefe from "public/assets/lefe1.png";
 import dash1 from "public/assets/Dashboard/dashimg.png";
 import dash2 from "public/assets/Dashboard/dashimg1.png";
 import dash3 from "public/assets/Dashboard/dashimg2.png";

@@ -5,7 +5,7 @@ import DefaultLayout from '@/app/components/DefaultLayout/layout';
 import Aboutbg from 'public/assets/aboutbg.png'
 import Leaf from 'public/assets/LandingPage/Leaf1.png'
 import imgbg from 'public/assets/contact-bg.png'
-import Lefe from 'public/assets/Lefe1.png'
+import Lefe from 'public/assets/lefe1.png'
 import contactimg from "public/assets/contactimg.png"
 import leaf2 from 'public/assets/leaf2.png'
 import sideimg from 'public/assets/img1.png'

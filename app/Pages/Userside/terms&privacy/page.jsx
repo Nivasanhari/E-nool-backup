@@ -5,9 +5,9 @@ import privacypolicy from 'public/assets/privacy policy.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import img1 from 'public/assets/img1.png'
 import Ellipse from 'public/assets/Ellipse.png'
-import Lefe from 'public/assets/Lefe1.png'
+import Lefe from 'public/assets/lefe1.png'
 import Terms from 'public/assets/terms.png'
-import Leaf2 from 'public/assets/Leaf2.png'
+import Leaf2 from 'public/assets/leaf2.png'
 import Lefe2 from 'public/assets/Lefe2.png'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 

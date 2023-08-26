@@ -1,7 +1,7 @@
 import React from 'react'
 import bg from "public/assets/bg.png"
 import Image from 'next/image'
-import lefe1 from 'public/assets/Lefe1.png'
+import lefe1 from 'public/assets/lefe1.png'
 import Staricon from '@/app/components/staricon/Staricon'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 

@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 
 
-import backButton from 'public/icons/backButton.svg';
 import nextbutton from 'public/icons/next.svg';
 import previousbutton from 'public/icons/previous.svg';
 import preferences from 'public/icons/preferences.svg';

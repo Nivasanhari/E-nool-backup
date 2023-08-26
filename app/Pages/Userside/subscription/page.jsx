@@ -23,13 +23,13 @@ import leftarrow from 'public/icons/left-arrow.png';
 import rightarrow from 'public/icons/right-arrow.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import Leaf from 'public/assets/LandingPage/Leaf1.png'
-import LefeBg from 'public/assets/Lefe1.png'
+import LefeBg from 'public/assets/lefe1.png'
 import pricing from 'public/assets/Pricing.png'
 import pricingimg from 'public/assets/pricingimg.png'
 import Leaf1 from '@/public/assets/LandingPage/Leaf1.png'
 import img1 from 'public/assets/img1.png'
 import Ellipse from 'public/assets/Ellipse.png'
-import Leaf2 from 'public/assets/Leaf2.png'
+import Leaf2 from 'public/assets/leaf2.png'
 import DefaultLayout from '@/app/components/DefaultLayout/layout';
 
 

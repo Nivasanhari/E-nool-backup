@@ -7,7 +7,7 @@ import DefaultLayout from '@/app/components/DefaultLayout/layout';
 import bgimg from 'public/assets/bg1.png'
 import book from 'public/assets/book.png'
 import Staricon from '@/app/components/staricon/Staricon'
-import Lefe from 'public/assets/Lefe1.png'
+import Lefe from 'public/assets/lefe1.png'
 import img1 from 'public/assets/img1.png'
 import Add from 'public/assets/Add.png'
 import TrendingReads1 from 'public/assets/LandingPage/TrendingReads1.png';

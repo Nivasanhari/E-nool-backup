@@ -5,7 +5,7 @@ import React from "react";
 import Aboutbg from "public/assets/aboutbg.png";
 import Leaf from "public/assets/LandingPage/Leaf1.png";
 import about1 from "public/assets/about1.png";
-import LefeBg from "public/assets/Lefe1.png";
+import LefeBg from "public/assets/lefe1.png";
 import grp1 from "public/assets/grp1.png";
 import Ellipse from "public/assets/Ellipse.png";
 import img1 from "public/assets/img1.png";

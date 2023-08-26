@@ -4,7 +4,7 @@ import Image from 'next/image';
 import PageFlip from 'react-pageflip';
 import pdf from '@/public/assets/Flipbook/pdf.png'
 import read from '@/public/assets/Flipbook/read.png'
-import LefeBg from "public/assets/Lefe1.png";
+import LefeBg from "public/assets/lefe1.png";
 import Leaf1 from '@/public/assets/LandingPage/Leaf1.png'
 
 import FlipbookPlayer from "@/app/components/FlipbookPlayer/page.jsx"

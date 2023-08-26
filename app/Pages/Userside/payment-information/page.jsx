@@ -3,7 +3,7 @@ import Image from "next/image";
 import Coupon from "@/app/components/Coupon/page";
 import React, { Fragment, useState } from "react";
 import bg from "public/assets/bg1.png";
-import Lefe from "public/assets/Lefe1.png";
+import Lefe from "public/assets/lefe1.png";
 import upi from "public/assets/payment/upi.png";
 import credit from "public/assets/payment/credit.png";
 import net from "public/assets/payment/netbanking.png";
