@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var public_assets_book_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(13985);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14899);
-/* harmony import */ var _app_Components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62479);
+/* harmony import */ var _app_components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(34199);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(52451);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_5__);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
@@ -70,7 +70,7 @@ const page = ()=>{
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: " flex items-center",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_Components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__["default"], {}),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         className: " ml-2 text-xs",
                                         children: "(27)"
@@ -107,6 +107,55 @@ const page = ()=>{
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (page);
 
+
+/***/ }),
+
+/***/ 34199:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+// components/StarRating.js
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+const StarRating = ({ initialValue })=>{
+    const [rating, setRating] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(initialValue);
+    const handleRatingChange = (newRating)=>{
+        setRating(newRating);
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: " text-xl ml-2 cursor-pointer text-[orange]",
+        children: [
+            1,
+            2,
+            3,
+            4,
+            5
+        ].map((index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                className: `star ${rating >= index ? "filled" : ""}`,
+                onClick: ()=>handleRatingChange(index),
+                children: "★"
+            }, index))
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (StarRating);
+
+
+/***/ }),
+
+/***/ 13985:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/book.5550b65e.png","height":325,"width":219,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAApklEQVR42gVATw+BUAD/vWS8JmvWlK3NheFi3WycXYzP7Ghz4OCCXFoaMtVKfxTvGZnPzJS2e5SKhNu3J2kheItD5UeJSuEkIAO9DskPJcF1AlQiC2y3wUgt4D4IIwD4WNcwbYQ4RR+sPXzF1WIJsAJdQwHPGeztGWJfb0JTa9gf7piYHbzsOgSZZbj6Jaq6AcsrIWeRIFyOXpYkHHKF8zguEeW19A/EPEZVrui5jQAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
 
 /***/ }),
 

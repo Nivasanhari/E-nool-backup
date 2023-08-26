@@ -343,11 +343,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 89046:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27335))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40763))
 
 /***/ }),
 
-/***/ 27335:
+/***/ 40763:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -364,229 +364,14 @@ var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: ./app/components/Coupon/page.jsx
+var page = __webpack_require__(59509);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(18038);
-;// CONCATENATED MODULE: ./app/Components/Coupon/page.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-const page = ({ isVisivle, onClose })=>{
-    if (!isVisivle) return null;
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: " fixed inset-0 bg-[#015464] bg-opacity-25 flex justify-center items-center",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: " fixed w-[800px]",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " bg-[#7CC9B5] w-[800px] h-[500px] p-2 rounded-3xl ",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                className: " text-white ml-[330px] font-bold mt-4",
-                                children: "Available Offers"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                className: " text-xl ml-32 mr-10 bg-[#7CC9B5] rounded-full p-1 px-3 text-white bg-opacity-25",
-                                onClick: ()=>onClose(),
-                                children: "x"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad] mt-3 ",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad]mt-3",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad] mt-3",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad] mt-3",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad] mt-3",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " bg-white w-[200px] rounded-xl ml-10 mt-8",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " ml-4 text-sm pb-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " text-[#015464] font-semibold pt-5",
-                                            children: "Coupon Heading Save Upto 35%"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            className: " text-[10px] text-[#14adad] mt-3",
-                                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " bg-[#7CC9B5] bg-opacity-50 font-semibold text-[#015464] w-20 text-center mt-4",
-                                                    children: "ENL35"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " mt-3 ml-16 text-[12px] font-bold text-[#015464] ",
-                                                    children: "Apply"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-};
-/* harmony default export */ const Coupon_page = (page);
-
 // EXTERNAL MODULE: ./public/assets/bg1.png
 var bg1 = __webpack_require__(36315);
-// EXTERNAL MODULE: ./public/assets/Lefe1.png
-var Lefe1 = __webpack_require__(12417);
+// EXTERNAL MODULE: ./public/assets/lefe1.png
+var lefe1 = __webpack_require__(85915);
 ;// CONCATENATED MODULE: ./public/assets/payment/upi.png
 /* harmony default export */ const upi = ({"src":"/_next/static/media/upi.2dfd35c8.png","height":32,"width":64,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAf0lEQVR42mNIy8hmSs3IFmEAAiCtCuTbJKTnGtXkxItN6mBgBgrmqKem57gCsS4QT83IyGqMTCuYuCPHbld3lbIXA1CHDhCXAnEBEIcE5mZxlaRn2y3Nd43Ta1bjZsjJzmDNysoUzs7O4M7OyeDOysoSSs1OF2CIWc3GwMDAAABG1yq11nXTggAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":4});
 ;// CONCATENATED MODULE: ./public/assets/payment/credit.png
@@ -619,7 +404,7 @@ const page_page = ()=>{
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
-                            src: Lefe1["default"],
+                            src: lefe1["default"],
                             alt: ""
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -993,7 +778,7 @@ const page_page = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx(Coupon_page, {
+                /*#__PURE__*/ jsx_runtime_.jsx(page["default"], {
                     isVisivle: showModal,
                     onClose: ()=>setShowModal(false)
                 })
@@ -1032,7 +817,15 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 12417:
+/***/ 36315:
+/***/ (() => {
+
+"use strict";
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg1.3f5f09bf.png","height":1540,"width":1811,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAS1BMVEV+xbN/xLGAw7B/w7F/w7CAwq9/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAxLGAxLB/xLF/xLCAw7B/w7CAw7CAw7B5UEk+AAAAGXRSTlMAAAAAAAABAwkNEhMUFRcYGRoaGhoaGhscitjNAwAAADxJREFUeNoVyMkRgDAMBMEVh7lBMMhy/pFS9LN1pfMAmr3FS62yacvgRmbdmhAaSr804p9yJuEyjUeS+wdrhgMxyWywdQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":7});
+
+/***/ }),
+
+/***/ 85915:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1040,15 +833,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
-/***/ }),
-
-/***/ 36315:
-/***/ (() => {
-
-"use strict";
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg1.3f5f09bf.png","height":1540,"width":1811,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAS1BMVEV+xbN/xLGAw7B/w7F/w7CAwq9/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAxLGAxLB/xLF/xLCAw7B/w7CAw7CAw7B5UEk+AAAAGXRSTlMAAAAAAAABAwkNEhMUFRcYGRoaGhoaGhscitjNAwAAADxJREFUeNoVyMkRgDAMBMEVh7lBMMhy/pFS9LN1pfMAmr3FS62yacvgRmbdmhAaSr804p9yJuEyjUeS+wdrhgMxyWywdQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":7});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
 
 /***/ })
 
@@ -1059,7 +844,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,9240,6543], () => (__webpack_exec__(29011)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,9240,6543,9509], () => (__webpack_exec__(29011)));
 module.exports = __webpack_exports__;
 
 })();

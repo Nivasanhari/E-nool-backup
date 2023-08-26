@@ -364,7 +364,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var public_assets_aboutbg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(50565);
 /* harmony import */ var public_assets_LandingPage_Leaf1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(71066);
 /* harmony import */ var public_assets_about1_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(57642);
-/* harmony import */ var public_assets_Lefe1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12417);
+/* harmony import */ var public_assets_lefe1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(85915);
 /* harmony import */ var public_assets_grp1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(84344);
 /* harmony import */ var public_assets_Ellipse_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(79942);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(14899);
@@ -444,7 +444,7 @@ function Publisher() {
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                     className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
-                    src: public_assets_Lefe1_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+                    src: public_assets_lefe1_png__WEBPACK_IMPORTED_MODULE_6__["default"],
                     alt: ""
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -1346,7 +1346,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,9240,6543,6045,8770,7878,1357], () => (__webpack_exec__(92834)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,2547,9769,6580,9240,6543,1742,6045,8770,8055,941], () => (__webpack_exec__(92834)));
 module.exports = __webpack_exports__;
 
 })();

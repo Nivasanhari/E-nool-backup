@@ -340,12 +340,12 @@ var build = __webpack_require__(98320);
 /* harmony default export */ const pdf = ({"src":"/_next/static/media/pdf.39c83e2b.png","height":100,"width":100,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA0klEQVR42j2PSw4BQRCG+zYTjuD9XEjEgjBhhWMw0/NEEK+JWZjBTjiGvs84QM+mVLVEJ9VJV//1/X8xOlXHyeTnhsCSuZkhC4Ypap6bUZ8119FKnCed4xb0KFDV2qygaPKk7rkaK1uWqNg2DG9n2Vz60Fx4MLqHsu67gINvxNspomFwOcH0dYXJMyYKEQAHU0YXPbrhHvQ4gPEjgvZuDWVu/QWixC0kBLKPlF54UBaNn4UgQRZzfChHA/0pA24F1EN7tQmJNGwQKaVSwR1bY4yxLwCAghEsDwc7AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/assets/Flipbook/read.png
 /* harmony default export */ const read = ({"src":"/_next/static/media/read.2248d8d6.png","height":100,"width":100,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAYFBMVEU/f38/f38/f38/f39AgIBAgIBAgIBAgIBHh4VGh4RFhYREhYNAgIBAgIA+fX49fX5Ul5BTlo9TlY9SlI5RlI1Rk41Qk41QkoxPkYxJiodIiYZHiIU+fn8+fn4+fX48fH1ev+SaAAAAEHRSTlMAJykqwMHs7fn5+fn5+vr6p6ezfwAAAEdJREFUeNoVy1sWgBAUBdBDHXoQpadw5z/LVvt/A5rOUQPKFJFiFFjn+5paj+XdY0w5IOS0bukJYBuPc2hEZ6tItX+j91T4AIFhA5lD2m2FAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":8});
-// EXTERNAL MODULE: ./public/assets/Lefe1.png
-var Lefe1 = __webpack_require__(12417);
+// EXTERNAL MODULE: ./public/assets/lefe1.png
+var lefe1 = __webpack_require__(85915);
 // EXTERNAL MODULE: ./public/assets/LandingPage/Leaf1.png
 var Leaf1 = __webpack_require__(71066);
-// EXTERNAL MODULE: ./app/components/FlipbookPlayer/page.jsx + 12 modules
-var page = __webpack_require__(56702);
+// EXTERNAL MODULE: ./app/components/FlipbookPlayer/page.jsx + 11 modules
+var page = __webpack_require__(24529);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/flipbook/page.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -367,7 +367,7 @@ const Flipbook = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
-                src: Lefe1["default"],
+                src: lefe1["default"],
                 alt: ""
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -484,7 +484,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 12417:
+/***/ 85915:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -492,7 +492,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
 
 /***/ })
 
@@ -503,7 +503,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1315,9769,6702], () => (__webpack_exec__(62130)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1315,9769,4529], () => (__webpack_exec__(62130)));
 module.exports = __webpack_exports__;
 
 })();

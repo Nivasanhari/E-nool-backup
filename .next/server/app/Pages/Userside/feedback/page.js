@@ -340,25 +340,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 81308:
+/***/ 38601:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99302));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 34199));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84136));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 90122));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 46163));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83974));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 12417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99302));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 34199))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83974))
 
 /***/ }),
 
@@ -423,8 +423,8 @@ var react_shared_subset = __webpack_require__(62947);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(14178);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./public/assets/Lefe1.png
-var Lefe1 = __webpack_require__(62758);
+// EXTERNAL MODULE: ./public/assets/lefe1.png
+var lefe1 = __webpack_require__(15363);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
 var module_proxy = __webpack_require__(61363);
 ;// CONCATENATED MODULE: ./app/components/staricon/Staricon.jsx
@@ -471,7 +471,7 @@ const page = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
-                                src: Lefe1/* default */.Z,
+                                src: lefe1/* default */.Z,
                                 alt: ""
                             })
                         ]
@@ -615,29 +615,6 @@ const page = ()=>{
 
 /***/ }),
 
-/***/ 62758:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
-/***/ }),
-
-/***/ 12417:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
-/***/ }),
-
 /***/ 99302:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -647,6 +624,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg.eb973cb3.png","height":2246,"width":2038,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAARVBMVEWAxLB/xLGAw7B/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAw7B/xLGAw7B/xLGAw7B/xLGAw7B1Ru5+AAAAF3RSTlMAAAACAwUICQsMDQ4QExQZGRoaGxsdHdBrKAUAAAA9SURBVHjaDcdBAoAgCATAlUpSMoOl/v/UnNtAdhu3CtpkJivGFz7TIJ3h7BBRBk+UUvlQAdibfqxv7VL5AVSPAnICtb4DAAAAAElFTkSuQmCC","blurWidth":7,"blurHeight":8});
+
+/***/ }),
+
+/***/ 15363:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+
+/***/ }),
+
+/***/ 85915:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
 
 /***/ })
 

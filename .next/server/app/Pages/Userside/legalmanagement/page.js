@@ -340,31 +340,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 44123:
+/***/ 88670:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71066));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50565));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18702));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27749));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37063));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84136));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48220));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 90122));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 46163));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20607));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55373));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73118));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48483));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83974));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71066));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 12417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 94745));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37063));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27749))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11189))
 
 /***/ }),
 
@@ -397,16 +397,16 @@ var aboutbg = __webpack_require__(75632);
 var img1 = __webpack_require__(21152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
 var Ellipse = __webpack_require__(6385);
-// EXTERNAL MODULE: ./public/assets/Lefe1.png
-var Lefe1 = __webpack_require__(62758);
+// EXTERNAL MODULE: ./public/assets/lefe1.png
+var lefe1 = __webpack_require__(15363);
 // EXTERNAL MODULE: ./public/assets/terms.png
 var terms = __webpack_require__(77386);
 // EXTERNAL MODULE: ./public/assets/Lefe2.png
 var Lefe2 = __webpack_require__(9995);
 ;// CONCATENATED MODULE: ./public/assets/Legal Managementbg.png
 /* harmony default export */ const Legal_Managementbg = ({"src":"/_next/static/media/Legal Managementbg.09a96c18.png","height":175,"width":1640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAGUlEQVR4nGNk8EtiZQCD/0DMyAgkQAw4AAA4wQK3HgvT6QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":1});
-// EXTERNAL MODULE: ./public/assets/Leaf2.png
-var Leaf2 = __webpack_require__(15473);
+// EXTERNAL MODULE: ./public/assets/leaf2.png
+var leaf2 = __webpack_require__(3350);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/legalmanagement/page.jsx
 
 
@@ -514,7 +514,7 @@ const LegalManagement = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 ",
-                                src: Lefe1/* default */.Z,
+                                src: lefe1/* default */.Z,
                                 alt: ""
                             })
                         ]
@@ -623,7 +623,7 @@ const LegalManagement = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 ",
-                                src: Leaf2/* default */.Z
+                                src: leaf2/* default */.Z
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 ",
@@ -668,7 +668,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,679,7878,4427,8294], () => (__webpack_exec__(68027)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,7227,9769,6580,9240,1742,679,8055,3393,5250,6066], () => (__webpack_exec__(68027)));
 module.exports = __webpack_exports__;
 
 })();

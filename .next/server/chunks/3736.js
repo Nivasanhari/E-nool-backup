@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var public_assets_book_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(13985);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14899);
-/* harmony import */ var _app_Components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62479);
+/* harmony import */ var _app_components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(34199);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(52451);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_5__);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
@@ -53,7 +53,7 @@ const page = ()=>{
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: " flex items-center",
                                     children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_Components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_4__["default"], {}),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                             className: " ml-2 text-xs",
                                             children: "(27)"

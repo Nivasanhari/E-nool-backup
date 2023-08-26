@@ -352,11 +352,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(18038);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _app_Components_addBook_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(23314);
+/* harmony import */ var _app_components_addBook_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(59880);
 /* harmony import */ var public_assets_bg1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(36315);
 /* harmony import */ var public_assets_book_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(13985);
-/* harmony import */ var _app_Components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(62479);
-/* harmony import */ var public_assets_Lefe1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(12417);
+/* harmony import */ var _app_components_staricon_Staricon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(34199);
+/* harmony import */ var public_assets_lefe1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(85915);
 /* harmony import */ var public_assets_img1_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(14899);
 /* harmony import */ var public_assets_Add_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(49095);
 /* harmony import */ var public_assets_Ellipse_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(79942);
@@ -480,7 +480,7 @@ const page = ()=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_Components_addBook_page__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_app_components_addBook_page__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                 isVisivle: showModal,
                 onClick: ()=>setShowModal(false)
             })
@@ -516,18 +516,6 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
-/***/ }),
-
-/***/ 79942:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Ellipse.25173591.png","height":113,"width":113,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAIVBMVEUAUmMAUmMAUmQAUmMAUmQAUWQAUmQAUmMAUWQAUWMAUWNCcdYlAAAAC3RSTlMACSo0Nzc4ODg4OyfMtrgAAAApSURBVHjaY2BUDRJgEF5eZcig5dGyiCG8s6KUIbw9oxTMhUgwqgYJAADRUAqTs7jCVwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
-
 /***/ })
 
 };
@@ -537,7 +525,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,805,8367,3655,5716,8661], () => (__webpack_exec__(86487)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,577,2451,1440,9769,6580,805,8367,1742,3655,7567], () => (__webpack_exec__(86487)));
 module.exports = __webpack_exports__;
 
 })();
